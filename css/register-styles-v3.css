@@ -1,0 +1,410 @@
+
+html {
+border: 0;
+padding: 0;
+margin: 0;
+font-family: 'Titling Gothic FB Narr', sans-serif;
+-webkit-font-smoothing: antialiased;
+}
+body {
+color: #333;
+margin: 0;
+border: 0;
+padding: 0;
+font-family: 'Titling Gothic FB Narr', sans-serif;
+}
+.breadcrumbComponent {
+display: none;
+}
+#right_main {
+width: 100%;
+}
+
+#regPageWrapper #registerForm #interestsInfo div.row {
+margin-right: 135px;
+}
+
+
+#regPageWrapper {
+/* background: url('http://www.centralparknyc.org/assets/images/2014/Mall_2011_1.jpg') center top no-repeat; */
+background-color: #F7F7F7;
+width: 660px;
+min-height: 800px;
+padding: 0 0 80px;
+line-height: 2em;
+display:block;
+font-family: 'Titling Gothic FB Narr', sans-serif;
+margin: 0 auto;
+}
+#regPageWrapper h1 {
+font-size: 30px;
+margin: 0 auto 10px;
+text-align: center;
+line-height: 1.2em;
+padding: 10px 0 0;
+}
+#regPageWrapper p {
+font-size: 16px;
+margin: 0 auto;
+text-align: center;
+line-height: 1.5em;
+}
+#regPageWrapper h2 {
+margin: 0;
+font-size: 24px;
+font-family: 'Titling Gothic FB Narr', sans-serif;
+color: #76c043;
+float: left;
+}
+#regPageWrapper h3 {
+font-size: 21px;
+font-family: 'Titling Gothic FB Narr', sans-serif;
+color: #76c043;
+}
+#regPageWrapper div#login_error {
+width: 100px;
+font-size: 10px;
+font-family: 'Titling Gothic FB Narr', sans-serif;
+color: #333;
+text-align: right;
+margin: 10px 0 0px 275px;
+}
+#regPageWrapper #registerForm {
+/*float: left;*/
+width: 100%;
+margin: 10px auto;
+}
+#regPageWrapper #registerForm div.infoArea {
+margin: 12px 0 0 150px;
+}
+#regPageWrapper #registerForm div.state, #regPageWrapper #registerForm div.zip {
+width: 165px;
+display: block;
+float: left;
+padding-right: 45px;
+}
+#regPageWrapper #registerForm div.state select,#regPageWrapper #registerForm div.state label {
+width: 100%;
+}
+#regPageWrapper #registerForm div.zip input, #regPageWrapper #registerForm div.zip label {
+width: 100%;
+}
+#regPageWrapper #registerForm div.submit {
+float: right;
+width: 169px;
+margin-right: 150px;
+background: #D9D9D9;
+}
+#regPageWrapper #registerForm div.submit input {
+width:180px;
+margin:18px 0 0 31px;
+border:0;
+height:45px;
+background: url(http://cpc.convio.net/images/content/pagebuilder/submit_button_white.png) no-repeat;
+cursor:pointer;
+text-indent:-9999px;
+display:inline;
+}
+#regPageWrapper #registerForm input {
+width:auto;
+padding:3px;
+font-size: 12px;
+}
+#regPageWrapper #registerForm input[type='text'] {
+width: 375px;
+}
+#regPageWrapper #registerForm label {
+font-size: 12px;
+font-weight:300;
+line-height: 1.5em;
+color: #333;
+width: 320px;
+display: block;
+}
+#regPageWrapper #registerForm #regPageWrapper #registerForm #interestsInfo input p {
+text-align: left;
+min-width: 200px;
+}
+#regPageWrapper #registerForm #interestsInfo label {
+float: right;
+padding-left: 10px;
+}
+#regPageWrapper #registerForm #addressInfo, #regPageWrapper #registerForm #interestsInfo {
+display: none;
+}
+#regPageWrapper #registerForm #interestsInfo ul {
+list-style-type: none;
+padding: 0;
+margin: 0;
+}
+#regPageWrapper #registerForm #interestsInfo li {
+display: block;
+background-color: #d9d9d9;
+line-height: 1em;
+width: 370px;
+}
+#regPageWrapper #registerForm #interestsInfo li.selected  {
+background-color: #78c043;
+}
+#regPageWrapper #registerForm #interestsInfo div.selected  {
+background-color: #78c043;
+}
+.formButton  {
+margin: 24px 0 0 150px;
+background: linear-gradient(to bottom, #79BF43, #69962E) repeat scroll 0% 0% #79BF43;
+border-radius: 19px;
+box-shadow: 2px 2px 2px #666;
+color: #FFF !important;
+font-size: 12px;
+padding: 3px !important;
+border: 0px solid #79BF43;
+text-decoration: none;
+text-transform: uppercase;
+text-align: center;
+text-indent:0;
+display:inline-block;
+color:#78c043;
+font-family: 'Titling Gothic FB Cond', sans-serif;
+font-size:14px;
+font-style:normal;
+height:30px;
+line-height:25px;
+width:230px;
+text-decoration:none;
+text-align:center;
+}
+
+
+.formButton:hover {
+background: #8ad150;
+background-image: -webkit-linear-gradient(top, #8ad150, #69962e);
+background-image: -moz-linear-gradient(top, #8ad150, #69962e);
+background-image: -ms-linear-gradient(top, #8ad150, #69962e);
+background-image: -o-linear-gradient(top, #8ad150, #69962e);
+background-image: linear-gradient(to bottom, #8ad150, #69962e);
+text-decoration: none;
+color: #ffffff;
+text-transform:uppercase;   
+}
+
+
+.submitButton {
+margin: 24px 0 0 150px;
+background: linear-gradient(to bottom, #79BF43, #69962E) repeat scroll 0% 0% #79BF43;
+border-radius: 19px;
+box-shadow: 2px 2px 2px #666;
+color: #FFF !important;
+font-size: 12px;
+padding: 3px !important;
+border: 0px solid #79BF43;
+text-decoration: none;
+text-transform: uppercase;
+text-align: center;
+text-indent:0;
+display:inline-block;
+color:#78c043;
+font-family: 'Titling Gothic FB Cond', sans-serif;
+font-size:14px;
+font-style:normal;
+height:30px;
+line-height:25px;
+width:230px;
+text-decoration:none;
+text-align:center;
+}.submitButton:hover {
+background: #8ad150;
+background-image: -webkit-linear-gradient(top, #8ad150, #69962e);
+background-image: -moz-linear-gradient(top, #8ad150, #69962e);
+background-image: -ms-linear-gradient(top, #8ad150, #69962e);
+background-image: -o-linear-gradient(top, #8ad150, #69962e);
+background-image: linear-gradient(to bottom, #8ad150, #69962e);
+text-decoration: none;
+color: #ffffff;
+text-transform:uppercase;   
+}
+
+#regPageWrapper #registerForm #regFormSubmit {
+margin:24px 132px 0 0;
+float: right;
+width: 150px;
+}
+#regText { display: none; }
+#note { display: none; }
+#regPageWrapper .clickable { cursor: pointer; }
+#memLoader { display: none; height: 100px; position: absolute; width: 300px; background: #000; }
+#memLoader img { position: relative; left: 46px; top: 43.5px; }
+#sb-body, #sb-loading {
+background-color: #fff;
+}
+#regThanksMessage, #thanksMessage { display: none; }
+
+/* Error styles */
+#regPageWrapper #registerForm label.error { color: #f33; font-size: 76.9%; font-weight: normal; text-transform: uppercase; }
+#regPageWrapper #registerForm ul.email-types label.error { margin-top: 20px; position: absolute; }
+#regPageWrapper #registerForm ul#hi-radio-wrap label.error { margin-top: 40px; *margin-top: 65px; position: absolute; }
+
+
+#regPageWrapper #registerForm input.error, #regPageWrapper #registerForm select.error, #regPageWrapper #registerForm checkbox.error { background-color: #f33; color: #000; }
+#regPageWrapper #registerForm input.valid, #regPageWrapper #registerForm select.valid, #regPageWrapper #registerForm checkbox.valid { background-color: #FFF; }
+#regPageWrapper #registerForm label.error { display: inline; }
+
+/* RESPONSIVE CSS
+-------------------------------------------------- */
+
+@media (min-width: 769px) { 
+/* [[?xx::[[S334:respcss]]::<span></span>::<link href="http://cpc.convio.net/css/responsive-feedback.css" rel="stylesheet">]] */
+
+}
+
+
+
+@media (max-width: 768px) {
+
+body {
+background-color: white;
+}
+#header, #id_bar, #left_content, #footer {
+display: none;
+}
+#center_main, #contentDiv, #contain {
+width: 100%;
+}
+#regPageWrapper {
+background-size: 100% auto;
+width: 100%;
+min-height: 600px;
+}
+div#regPageWrapper {
+line-height: 1em;
+}
+#regPageWrapper h1 {
+font-size: 20px;
+margin: 0 auto 10px;
+}
+#regPageWrapper p {
+font-size: 12px;
+margin: 0 auto;
+}
+#regPageWrapper #registerForm div.infoArea {
+margin: 10px auto;
+clear: both;
+}
+#regPageWrapper div#login_error {
+font-size: 8px;
+margin: 6px auto;
+width: 90%;
+}
+#regPageWrapper #registerForm label,  
+#regPageWrapper #registerForm input, 
+#regPageWrapper #registerForm input[type='text'],
+#regPageWrapper #registerForm div.infoArea,
+#regPageWrapper #registerForm #interestsInfo span,
+#regPageWrapper #registerForm #interestsInfo ul
+{
+font-size: 10px;
+line-height: 1em;
+width: 90%;
+margin: 6px auto;
+display: block;
+}
+#regPageWrapper #registerForm #interestsInfo ul { 
+display: inline-block;
+width: 100%;
+}
+#regPageWrapper #registerForm #interestsInfo span { font-weight: bold; font-size: 12px; }
+#regPageWrapper #registerForm #interestsInfo li {
+width: 100%;
+}
+
+#regPageWrapper #registerForm #interestsInfo label {
+margin: 7px auto;
+width: 80%;
+}
+#regPageWrapper #registerForm #interestsInfo input {
+width: auto;
+display: inline-block;
+}
+
+#regPageWrapper #registerForm div.state, #regPageWrapper #registerForm div.zip {
+width: 40%;
+display: block;
+float: left;
+padding: 0 5%;
+}
+#regPageWrapper #registerForm select {
+font-size: 10px;
+line-height: 1em;
+width: 30%;
+margin: 6px auto;
+display: block;
+float: left;
+}
+#regPageWrapper #registerForm .formButton {
+margin: 12px 10%;
+display: block;
+float: left;
+}
+
+#regPageWrapper #registerForm #regFormSubmit {
+margin: 12px 10%;
+clear: both;
+float: left;
+}
+
+#regPageWrapper #registerForm #interestsInfo div.row {
+margin-right: -12px;
+}
+}
+
+@media (max-width: 519px) {
+#regPageWrapper #registerForm #interestsInfo input{
+width: 20px;
+margin: 5px 10px;
+}
+
+.formButton  {
+margin: 24px 0 0 150px;
+background: linear-gradient(to bottom, #79BF43, #69962E) repeat scroll 0% 0% #79BF43;
+border-radius: 12px;
+box-shadow: 2px 2px 2px #666;
+color: #FFF !important;
+font-size: 12px;
+padding: 3px !important;
+border: 0px solid #79BF43;
+text-decoration: none;
+text-transform: uppercase;
+text-align: center;
+text-indent:0;
+display:inline-block;
+color:#78c043;
+font-family: 'Titling Gothic FB Cond', sans-serif;
+font-size:10px;
+font-style:normal;
+height:18px;
+line-height:13px;
+width:150px;
+text-decoration:none;
+text-align:center;
+}
+
+.formButton:hover {
+background: #8ad150;
+background-image: -webkit-linear-gradient(top, #8ad150, #69962e);
+background-image: -moz-linear-gradient(top, #8ad150, #69962e);
+background-image: -ms-linear-gradient(top, #8ad150, #69962e);
+background-image: -o-linear-gradient(top, #8ad150, #69962e);
+background-image: linear-gradient(to bottom, #8ad150, #69962e);
+text-decoration: none;
+color: #ffffff;
+text-transform:uppercase;   
+}
+
+#regPageWrapper #registerForm #regFormSubmit {
+width: 120px;
+}
+
+#regText { display: inline; }
+
+#regLink { display: none; }
+
+}
